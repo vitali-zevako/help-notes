@@ -5,4 +5,4 @@
 ##### Trigger parameterized jenkins job remotely
 `curl -XPOST -u <username>:<password> <jenkins_url>:<port>/job/<job_name>/buildWithParameters`
 ##### Schedule job biweekly at Wednesday
-`0 3 */2 * 3`
+0 3 */2 * __3__
